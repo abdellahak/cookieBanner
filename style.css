@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orangered;
+    font-family: 'Poppins';
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+main h1{
+    font-size: 5rem;
+    margin-top: 150px;
+    color: white;
+}
+main p{
+    font-size: 22px;
+    color: white;
+}
+main p > a{
+    color: white;
+}
+main > a{
+    font-size: 2rem;
+    display: block;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+main > a:hover{
+    background-color: #f8f8f8;
+    color: black;
+}
+main > a:active{
+    background-color: orange;
+    color: black;
+}
+article{
+    margin-top: 20px;
+    width: 100%;
+    background-color: royalblue;
+    padding: 80px;
+}
+article h2{
+    font-size: 2rem;
+    margin: 10px 0px;
+    color: white;
+}
+article p{
+    color: white;
+}
+article img{
+    width: 300px;
+    float: right;
+}
+#cookies{
+    position: fixed;
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+    left: 0;
+    right: 0;
+    bottom:10px;
+    margin: auto;
+    border-radius: 5px;
+    display: none;
+    transition: 2s linear;
+}
+#cookies span{
+    color: orange;
+}
+#cookies h2{
+    margin: 20px 0px;
+    font-weight: 500;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+#btns{
+    float: right;
+}
+#btns a{
+    display: inline-block;
+    border: solid lightslategrey;
+    color: lightslategrey;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+#btns a:hover,#btns a:hover span{
+    color: white;
+    background-color: lightslategrey;
+}
+#btns a:active,#btns a:active span{
+    color: white;
+    background-color: gray;
+}
+#btns span{
+    color: lightslategray;
+    vertical-align: bottom;
+    line-height: 1.30;
+}
+#privacy{
+    color: orange;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px 0px;
+}
