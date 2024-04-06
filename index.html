@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>banniere cookies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cookies">
+      <h2>
+        <span class="material-symbols-outlined">cookie</span> Gestion des
+        cookies
+      </h2>
+      <p>
+        <a href="#">www.monSite_toto.ma</a> dépose des cookies pour améliorer
+        votre expérience de navigation, mesurer l’audience du site internet,
+        afficher des publicités personnalisées, réaliser des campagnes ciblées
+        et personnaliser l’interface du site.
+      </p>
+      <a href="#" id="privacy">Consulter la politique de confidetialité</a>
+      <div id="btns">
+        <a onclick="refuserCookie()"
+          ><span class="material-symbols-outlined">block</span>Refuser</a
+        >
+        <a><span class="material-symbols-outlined">settings</span>Parametrer</a>
+        <a onclick="accepterCookies()"
+          ><span class="material-symbols-outlined">done</span>Accepter</a
+        >
+      </div>
+    </div>
+    <main>
+      <h1>banniere cookies</h1>
+      <p>
+        created by
+        <a href="https://github.com/abdellahak" target="_blank"
+          >Abdellah Khouden</a
+        >
+      </p>
+      <a id="afficheCookie" onclick="afficheCookies()">Afficher Cookies</a>
+      <!-- FORM SIGN UP -->
+      <form method="GET" name="loginform">
+        <h3>Login</h3>
+
+        <label for="firstname">firstname</label>
+        <input
+          type="text"
+          placeholder="input your first name"
+          id="firstname"
+          name="firstname"
+        />
+
+        <label for="lastname">lastname</label>
+        <input
+          type="text"
+          placeholder="input your lasname"
+          id="lastname"
+          name="lastname"
+        />
+
+        <label for="age">age</label>
+        <input
+          type="number"
+          placeholder="input your age"
+          id="age"
+          min="10"
+          max="100"
+          name="age"
+        />
+
+        <input type="submit" value="Log In" id="submitbtn" />
+        <input type="reset" value="Clear" id="clear" />
+        <br />
+        <a onclick="addCookieDatToForm()">set cookies informations</a>
+        <a onclick="clearCookiesData()">clear cookies data</a>
+      </form>
+
+      <article>
+        <h2>Lorem ipsum</h2>
+        <img src="img/work.png" alt="work" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis,
+          optio sequi recusandae pariatur voluptate voluptatibus quidem, autem
+          tempore illum iste consequuntur dicta vero odio voluptatum neque
+          suscipit est cupiditate ipsa nobis. In voluptatibus enim molestiae
+          blanditiis sed dolor incidunt. Fuga dolorem sit quisquam magni
+          deserunt eum dolorum iusto optio quod quae. Suscipit recusandae nihil
+          excepturi nobis porro est corporis, voluptatum amet. Delectus
+          blanditiis, doloremque labore voluptas iste molestias? Eaque
+          repellendus praesentium, vero corrupti laborum placeat tenetur
+          recusandae, at assumenda ab sapiente eveniet molestias veniam officiis
+          fuga voluptate omnis ducimus odit qui in pariatur iste autem harum
+          cumque. Consectetur, voluptatum explicabo?
+        </p>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
